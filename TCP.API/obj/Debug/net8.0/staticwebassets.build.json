@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ndaX1Q9Rqb2aImGOuXaJQ2J5HcPaWbOObAIyHravYOc=",
+  "Source": "TCP.API",
+  "BasePath": "_content/TCP.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

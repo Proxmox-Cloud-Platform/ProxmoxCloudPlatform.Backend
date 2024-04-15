@@ -1,0 +1,13 @@
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/bin/Debug/net8.0/TCP.Core.deps.json
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/bin/Debug/net8.0/TCP.Core.dll
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/bin/Debug/net8.0/TCP.Core.pdb
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/obj/Debug/net8.0/TCP.Core.csproj.AssemblyReference.cache
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/obj/Debug/net8.0/TCP.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/obj/Debug/net8.0/TCP.Core.AssemblyInfoInputs.cache
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/obj/Debug/net8.0/TCP.Core.AssemblyInfo.cs
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/obj/Debug/net8.0/TCP.Core.csproj.CoreCompileInputs.cache
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/obj/Debug/net8.0/TCP.Core.dll
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/obj/Debug/net8.0/refint/TCP.Core.dll
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/obj/Debug/net8.0/TCP.Core.pdb
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/obj/Debug/net8.0/ref/TCP.Core.dll
+/Users/tbrand/Documents/ThijmenCloudPlatform/TCP - Backend/TCP.Core/obj/Debug/net8.0/TCP.Core.sourcelink.json
