@@ -7,15 +7,9 @@ using TCP.ProxmoxInteractor.Repositories.Interfaces;
 
 namespace TCP.ProxmoxInteractor.Repositories;
 
-public class NodesRepository : BaseProxmoxRepository, INodesRepository
+public class NodesRepository(IProxmoxClientFactory proxmoxClientFactory)
+    : BaseProxmoxRepository(proxmoxClientFactory), INodesRepository
 {
-    private readonly IConfiguration _configuration;
-    
-    public NodesRepository(IProxmoxClientFactory proxmoxClientFactory, IConfiguration configuration) : base(proxmoxClientFactory)
-    {
-        _configuration = configuration;
-    }
-    
     public async Task<IEnumerable<NodeItem>> ListNodes()
     {
         var client = _proxmoxClientFactory.Create();

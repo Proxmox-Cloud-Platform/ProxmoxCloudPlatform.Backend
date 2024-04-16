@@ -17,6 +17,11 @@ public class CloneLxcMachineCommandHandler : IRequestHandler<CloneLxcMachineComm
     
     public async Task<Response<string>> Handle(CloneLxcMachineCommand request, CancellationToken cancellationToken)
     {
+        if (request.Configuration.Name == null)
+        {
+            throw new ArgumentNullException(nameof(request.Configuration.Name),
+                "NewId field and Name field must not be empty!");
+        }
         var result = await _virtualMachineRepository.CloneLxcMachine(request.Node, request.VmId, request.Configuration);
         
         return new Response<string>()

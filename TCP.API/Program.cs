@@ -29,7 +29,7 @@ builder.Services.AddSingleton<IProxmoxRepository, ProxmoxRepository>();
 
 var app = builder.Build();
 
-var config = new ConfigurationBuilder().AddUserSecrets<Program>().Build();
+new ConfigurationBuilder().AddUserSecrets<Program>().Build();
 
 
 // Configure the HTTP request pipeline.

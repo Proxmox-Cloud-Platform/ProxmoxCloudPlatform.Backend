@@ -1,8 +1,5 @@
 using Corsinvest.ProxmoxVE.Api.Shared.Models.Node;
 using MediatR;
-using TCP.Core.Utils;
-using TCP.ProxmoxInteractor;
-using TCP.ProxmoxInteractor.Repositories;
 using TCP.ProxmoxInteractor.Repositories.Interfaces;
 
 namespace TCP.Application.Queries;

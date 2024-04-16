@@ -5,7 +5,7 @@ using TCP.ProxmoxInteractor.Repositories.Interfaces;
 
 namespace TCP.Application.Queries;
 
-public record GetLxcMachine(string node, int vmId) : IRequest<VmConfigLxc>;
+public record GetLxcMachine(string Node, int VmId) : IRequest<VmConfigLxc>;
 
 public class GetLxcMachineHandler : IRequestHandler<GetLxcMachine, VmConfigLxc>
 {
@@ -18,7 +18,7 @@ public class GetLxcMachineHandler : IRequestHandler<GetLxcMachine, VmConfigLxc>
 
     public async Task<VmConfigLxc> Handle(GetLxcMachine request, CancellationToken cancellationToken)
     {
-        var machine = await _virtualMachineRepository.GetLxcMachine(request.node, request.vmId);
+        var machine = await _virtualMachineRepository.GetLxcMachine(request.Node, request.VmId);
 
         return machine;
 

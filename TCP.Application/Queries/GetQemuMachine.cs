@@ -5,7 +5,7 @@ using TCP.ProxmoxInteractor.Repositories.Interfaces;
 
 namespace TCP.Application.Queries;
 
-public record GetQemuMachine(string node, int vmId) : IRequest<VmConfigQemu>;
+public record GetQemuMachine(string Node, int VmId) : IRequest<VmConfigQemu>;
 
 public class GetQemuMachineHandler : IRequestHandler<GetQemuMachine, VmConfigQemu>
 {
@@ -20,10 +20,10 @@ public class GetQemuMachineHandler : IRequestHandler<GetQemuMachine, VmConfigQem
     {
         try
         {
-            var machine = await _virtualMachineRepository.GetQemuMachine(request.node, request.vmId);
+            var machine = await _virtualMachineRepository.GetQemuMachine(request.Node, request.VmId);
             return machine;
         }
-        catch (Exception e)
+        catch (Exception)
         {
             return null;
         }
